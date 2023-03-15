@@ -1,3 +1,4 @@
+![VPong Pic](/vpong.png)
 # VPong
 
 This is my first dabbing into programming the Vectrex. If you examine the sources – they start of with the comment: “; this game was written on 08.02.1998”
@@ -18,22 +19,22 @@ But until that day – I think I never wrote a single line of 6809 code.
 VPong was a testcase.
 I wanted it to include:
 
-    vector lists
-    moveable objects
-    joystick input
-    sound
+- vector lists
+- moveable objects
+- joystick input
+- sound
 
-… and a single player “Pong” variant was the easiest thing I could think of.
+... and a single player “Pong” variant was the easiest thing I could think of.
 
 While being a small game – and one that never really was intended to be distributed – in hindsight I am astonished, as to what small things I put into it:
 
-    it has a title page + intro music (internal ROM music)
-    it features a score, a ball count and a “touch” count
-    different sounds for paddle, wall and out of bounds
-    animated effects if you lose a ball or game over
-    game over screen (including score display)
-    increasing difficulty (every 5 paddle touches, the ball gets faster)
-    different angles for paddle touches, depending on the position of the touch
+- it has a title page + intro music (internal ROM music)
+- it features a score, a ball count and a “touch” count
+- different sounds for paddle, wall and out of bounds
+- animated effects if you lose a ball or game over
+- game over screen (including score display)
+- increasing difficulty (every 5 paddle touches, the ball gets faster)
+- different angles for paddle touches, depending on the position of the touch
 
 Apart from that the source is fully(!) documented!
 The source doesn’t use many “make my life easier” features a decent assembler offers and which I only learned much later – but it is well readable and structured.
